@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100px;
+    width: 200px;
+    background-color:  chocolate;
+    margin: 10px 10px 10px 10px;
+}
+
+div#d2 { background-color: bisque;
+}
+
+.first { background-color: antiquewhite;
+}
+
+h1 { font-size: 14px;
+}
+
+h2 { font-size: 18px;
+     color: blueviolet;
+}
+
+.first > h1 {
+    color: deeppink ;
+    front-size: 16px;
+    front-family: 'Times New Roman', serif;
+} /*изменили цвет, размер у h1, если он дочерний к классу first*/
+
+
+
+div i {
+    color: blue;
+    front-size: 20px;
+} /*поменяли цвет и размер у класса i*/
